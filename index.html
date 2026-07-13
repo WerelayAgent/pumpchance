@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pumpchance ($PUMPCHANCE) â a chance to be kind</title>
+<meta name="description" content="Pumpchance ($PUMPCHANCE) is a Solana meme coin with a mission: bounties of kindness. Get paid to do good, post the video, and watch it take over the internet." />
+<meta name="theme-color" content="#0158cb" />
+
+<link rel="canonical" href="https://pumpchance.com/" />
+
+<!-- Social preview -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Pumpchance" />
+<meta property="og:url" content="https://pumpchance.com/" />
+<meta property="og:title" content="Pumpchance ($PUMPCHANCE) â a chance to be kind" />
+<meta property="og:description" content="Pumpchance ($PUMPCHANCE) â bounties of kindness on Solana. Get paid to do good, post it, watch it go viral." />
+<meta property="og:image" content="https://pumpchance.com/pumpchance_banner.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Pumpchance ($PUMPCHANCE) â a chance to be kind" />
+<meta name="twitter:description" content="Pumpchance ($PUMPCHANCE) â bounties of kindness on Solana. Get paid to do good." />
+<meta name="twitter:image" content="https://pumpchance.com/pumpchance_banner.png" />
+<meta name="twitter:site" content="@Pumpchance_sol" />
+
+<!-- Structured data: helps Google recognise the brand + show sitelinks -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Pumpchance",
+      "alternateName": ["$PUMPCHANCE", "PUMPCHANCE coin", "pump chance"],
+      "url": "https://pumpchance.com/",
+      "logo": "https://pumpchance.com/pumpchance_icon.png",
+      "description": "Pumpchance ($PUMPCHANCE) is a Solana coin with a mission: bounties of kindness â get paid to do good, post it, and watch it go viral.",
+      "disambiguatingDescription": "The Solana memecoin $PUMPCHANCE (contract address coming soon on pump.fun on pump.fun). This is distinct from the 2014 Bitcoin-based 'Pumpchance' casino project and other unrelated PUMPCHANCE tokens.",
+      "sameAs": [
+        "https://x.com/pumpchance",
+        "https://www.tiktok.com/@pumpchancesol",
+        "https://www.instagram.com/pumpchancesol",
+        "https://www.youtube.com/@pumpchancesol",
+        "https://pump.fun/coin/coming soon on pump.fun"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "name": "Pumpchance",
+      "url": "https://pumpchance.com/"
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to buy Pumpchance ($PUMPCHANCE) on Solana",
+      "description": "Buy the $PUMPCHANCE token on pump.fun in four steps.",
+      "step": [
+        { "@type": "HowToStep", "name": "Get a wallet", "text": "Download Phantom or any Solana wallet on your phone or browser." },
+        { "@type": "HowToStep", "name": "Add some SOL", "text": "Buy Solana (SOL) on an exchange and send it to your wallet, or buy in-app." },
+        { "@type": "HowToStep", "name": "Open pump.fun", "text": "Connect your wallet and open the $PUMPCHANCE coin using the contract address coming soon on pump.fun." },
+        { "@type": "HowToStep", "name": "Swap & be kind", "text": "Swap SOL for $PUMPCHANCE and you are part of the kindness flywheel." }
+      ]
+    }
+  ]
+}
+</script>
+
+<link rel="icon" type="image/png" href="./pumpchance_icon.png" />
+
+
+
+<style type="text/css">@font-face {font-family:Shantell Sans;font-style:normal;font-weight:400;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:400;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:400;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:400;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:400;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:500;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:500;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:500;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:500;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:500;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:600;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:600;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:600;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:600;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:600;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:700;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:700;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:700;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:700;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:700;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:800;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:800;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:800;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:800;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:normal;font-weight:800;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:italic;font-weight:500;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/cyrillic/wght/italic.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:italic;font-weight:500;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/cyrillic-ext/wght/italic.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:italic;font-weight:500;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/latin/wght/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:italic;font-weight:500;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/vietnamese/wght/italic.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Shantell Sans;font-style:italic;font-weight:500;src:url(https://chancecoin.now/cf-fonts/v/shantell-sans/5.2.7/latin-ext/wght/italic.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Caveat;font-style:normal;font-weight:500;src:url(https://chancecoin.now/cf-fonts/v/caveat/5.2.8/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Caveat;font-style:normal;font-weight:500;src:url(https://chancecoin.now/cf-fonts/v/caveat/5.2.8/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Caveat;font-style:normal;font-weight:500;src:url(https://chancecoin.now/cf-fonts/v/caveat/5.2.8/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Caveat;font-style:normal;font-weight:500;src:url(https://chancecoin.now/cf-fonts/v/caveat/5.2.8/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Caveat;font-style:normal;font-weight:600;src:url(https://chancecoin.now/cf-fonts/v/caveat/5.2.8/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Caveat;font-style:normal;font-weight:600;src:url(https://chancecoin.now/cf-fonts/v/caveat/5.2.8/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Caveat;font-style:normal;font-weight:600;src:url(https://chancecoin.now/cf-fonts/v/caveat/5.2.8/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Caveat;font-style:normal;font-weight:600;src:url(https://chancecoin.now/cf-fonts/v/caveat/5.2.8/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Caveat;font-style:normal;font-weight:700;src:url(https://chancecoin.now/cf-fonts/v/caveat/5.2.8/latin-ext/wght/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Caveat;font-style:normal;font-weight:700;src:url(https://chancecoin.now/cf-fonts/v/caveat/5.2.8/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Caveat;font-style:normal;font-weight:700;src:url(https://chancecoin.now/cf-fonts/v/caveat/5.2.8/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Caveat;font-style:normal;font-weight:700;src:url(https://chancecoin.now/cf-fonts/v/caveat/5.2.8/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}</style>
+
+<!-- Cloudflare Turnstile (captcha for the bounty form) -->
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+<style>
+/* ============================================================
+   $chance â a chance to be kind
+   Aesthetic: handmade kindness poster on cream paper, cobalt
+   marker ink, wobbly hand-drawn boxes. Anti-degen on purpose.
+   ============================================================ */
+
+:root{
+  --paper:    #f3e6cf;
+  --paper-2:  #eddfc2;
+  --paper-hi: #f9f1dc;
+  --bark:     #5d4a2e;   /* deep warm brown â dark tint of the paper hue */
+  --bark-deep:#43341f;
+  --ink:      #0158cb;
+  --ink-deep: #073e8f;
+  --ink-soft: #3a74d8;
+  --red:      #e2503e;
+  --red-deep: #bf3a2a;
+  --line:     rgba(7,62,143,.18);
+
+  --shadow:   6px 6px 0 var(--ink-deep);
+  --shadow-sm:4px 4px 0 var(--ink-deep);
+  --shadow-red:6px 6px 0 var(--red-deep);
+
+  --font-d: "Shantell Sans", "Comic Sans MS", cursive;
+  --font-h: "Caveat", "Shantell Sans", cursive;
+
+  --r1: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  --r2: 15px 225px 15px 255px / 225px 15px 255px 15px;
+  --r3: 22px 60px 28px 48px / 50px 24px 56px 28px;
+}
+
+*{ box-sizing:border-box; }
+html{ scroll-behavior:smooth; overflow-x:hidden; }
+body{
+  margin:0;
+  font-family:var(--font-d);
+  color:var(--ink);
+  background:
+    radial-gradient(120% 90% at 50% -10%, var(--paper-hi), transparent 60%),
+    var(--paper);
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+  line-height:1.5;
+}
+
+/* Paper grain overlay ------------------------------------------------ */
+body::before{
+  content:"";
+  position:fixed; inset:0;
+  pointer-events:none; z-index:9999;
+  opacity:.05; mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+/* faint ruled-notebook lines, very subtle */
+body::after{
+  content:"";
+  position:fixed; inset:0;
+  pointer-events:none; z-index:0;
+  opacity:.5;
+  background-image:linear-gradient(var(--line) 1px, transparent 1px);
+  background-size:100% 44px;
+  -webkit-mask-image:radial-gradient(120% 120% at 50% 30%, #000 30%, transparent 75%);
+          mask-image:radial-gradient(120% 120% at 50% 30%, #000 30%, transparent 75%);
+}
+
+::selection{ background:var(--ink); color:var(--paper-hi); }
+
+a{ color:inherit; text-decoration:none; }
+img{ max-width:100%; display:block; }
+
+.wrap{ width:min(1160px, 92vw); margin-inline:auto; position:relative; z-index:1; }
+
+/* ---- Reusable hand-drawn primitives -------------------------------- */
+.sketch{
+  border:3px solid var(--ink);
+  border-radius:var(--r1);
+  background:var(--paper-hi);
+  box-shadow:var(--shadow);
+}
+.sketch.alt{ border-radius:var(--r2); }
+
+.tag{
+  display:inline-flex; align-items:center; gap:.5em;
+  font-weight:700; font-size:.8rem; letter-spacing:.04em;
+  text-transform:uppercase;
+  padding:.45em 1em;
+  border:2.5px solid var(--ink);
+  border-radius:40px 14px 38px 14px / 14px 36px 14px 40px;
+  background:var(--paper-hi);
+  box-shadow:var(--shadow-sm);
+}
+.tag .dot{ width:.55em; height:.55em; border-radius:50%; background:var(--red); box-shadow:0 0 0 2px var(--paper-hi),0 0 0 4px var(--red); }
+
+/* Buttons */
+.btn{
+  --bg:var(--ink); --fg:var(--paper-hi); --sh:var(--ink-deep);
+  display:inline-flex; align-items:center; gap:.55em;
+  font-family:var(--font-d); font-weight:800; font-size:1.05rem;
+  color:var(--fg); background:var(--bg);
+  padding:.7em 1.4em;
+  border:3px solid var(--ink-deep);
+  border-radius:40px 16px 38px 16px / 16px 36px 16px 40px;
+  box-shadow:5px 5px 0 var(--sh);
+  cursor:pointer;
+  transition:transform .12s cubic-bezier(.34,1.56,.64,1), box-shadow .12s;
+  position:relative;
+}
+.btn:hover{ transform:translate(-2px,-2px) rotate(-1deg); box-shadow:8px 8px 0 var(--sh); }
+.btn:active{ transform:translate(3px,3px); box-shadow:2px 2px 0 var(--sh); }
+.btn .ico{ font-size:1.15em; transform:translateY(1px); }
+
+.btn.ghost{ --bg:var(--paper-hi); --fg:var(--ink); --sh:var(--ink-deep); border-color:var(--ink); }
+.btn.red{ --bg:var(--red); --fg:var(--paper-hi); --sh:var(--red-deep); border-color:var(--red-deep); }
+
+/* Headings */
+h1,h2,h3{ margin:0; line-height:1.02; font-weight:800; }
+.eyebrow{
+  font-family:var(--font-h); font-size:1.6rem; font-weight:700;
+  color:var(--red); transform:rotate(-2deg); display:inline-block;
+}
+.h-sec{ font-size:clamp(2.2rem,6vw,4rem); letter-spacing:-.01em; }
+.scribble-underline{ position:relative; white-space:nowrap; }
+.scribble-underline svg{ position:absolute; left:-2%; bottom:-.5em; width:104%; height:.6em; overflow:visible; }
+
+/* =====================  TICKER MARQUEE  ============================= */
+.marquee{
+  background:var(--ink); color:var(--paper-hi);
+  border-block:3px solid var(--ink-deep);
+  overflow:hidden; white-space:nowrap;
+  font-weight:700; letter-spacing:.06em; text-transform:uppercase;
+}
+.marquee .track{ display:flex; width:max-content; gap:0; padding-block:.55em; animation:scrollx 26s linear infinite; }
+.marquee .track span{ display:flex; align-items:center; gap:2.5rem; padding-right:2.5rem; }
+.marquee .h{ color:var(--paper-hi); }
+.marquee .heart{ color:var(--red); }
+@keyframes scrollx{ to{ transform:translateX(-50%);} }
+
+/* =====================  NAV  ======================================= */
+header.nav{
+  position:sticky; top:0; z-index:80;
+  backdrop-filter:blur(6px);
+  background:var(--paper-2);
+  border-bottom:2px solid var(--line);
+  box-shadow:
+    inset 0 2px 0 rgba(255,252,244,.6),    /* lit top edge */
+    0 4px 0 -1px var(--paper-2),            /* extruded thickness */
+    0 16px 24px -8px rgba(93,74,46,.32),    /* soft warm drop shadow */
+    0 4px 10px -4px rgba(93,74,46,.22);
+}
+.nav-inner{ display:flex; align-items:center; gap:1.2rem; padding:.6rem 0; }
+.brand{ display:flex; align-items:center; gap:.6rem; font-weight:800; font-size:1.3rem; }
+.brand img{ width:42px; height:42px; border-radius:50%; border:2.5px solid var(--ink); background:var(--paper); box-shadow:var(--shadow-sm); }
+.brand .tk{ color:var(--ink); }
+.nav-links{ display:flex; gap:1.4rem; margin-left:auto; font-weight:600; color:var(--ink); }
+.nav-links a{ position:relative; padding:.2em 0; }
+.nav-links a::after{ content:""; position:absolute; left:0; right:0; bottom:-2px; height:2px; background:var(--red); transform:scaleX(0); transform-origin:left; transition:transform .2s; }
+.nav-links a:hover::after{ transform:scaleX(1); }
+.nav .btn{ font-size:.92rem; padding:.5em 1em; }
+@media(max-width:860px){ .nav-links{ display:none; } }
+
+/* =====================  HERO  ====================================== */
+.hero{ position:relative; padding:clamp(2.5rem,7vw,5.5rem) 0 2rem; }
+.hero-grid{ display:grid; grid-template-columns:1.15fr .85fr; gap:2.5rem; align-items:center; }
+.hero-grid > *{ min-width:0; } /* let the wide wordmark shrink instead of forcing overflow */
+@media(max-width:900px){ .hero-grid{ grid-template-columns:1fr; text-align:center; } }
+
+.hero-title{
+  font-family:var(--font-d); font-weight:800; color:var(--ink);
+  font-size:clamp(2.5rem,6.4vw,4.4rem); line-height:1.04; letter-spacing:-.01em;
+  margin:.4rem 0 1.2rem; filter:url(#crayonText);
+}
+.rotator{ position:relative; display:inline-block; vertical-align:baseline; overflow:visible;
+  transition:width .45s cubic-bezier(.5,.1,.25,1); }
+.rot-word{ display:inline-block; white-space:nowrap; color:var(--red); }
+.rot-word.out{ animation:rotOut .33s cubic-bezier(.55,0,.85,.2) forwards; }
+.rot-word.in{ animation:rotIn .46s cubic-bezier(.2,.85,.3,1.25); }
+@keyframes rotOut{ to{ opacity:0; transform:translateY(-.45em) rotate(-3deg); } }
+@keyframes rotIn{ from{ opacity:0; transform:translateY(.5em) rotate(3deg); } to{ opacity:1; transform:translateY(0) rotate(0); } }
+
+.hero .lede{
+  font-size:clamp(1.15rem,2.5vw,1.5rem); font-weight:500;
+  max-width:30ch; color:var(--ink); line-height:1.4;
+}
+@media(max-width:900px){ .hero .lede{ margin-inline:auto; } }
+.hero .lede b{ color:var(--red); font-weight:800; }
+
+.cta-row{ display:flex; flex-wrap:wrap; gap:.9rem; margin:1.6rem 0 1.1rem; }
+@media(max-width:900px){ .cta-row{ justify-content:center; } }
+
+/* contract address chip */
+.ca-chip{
+  display:inline-flex; align-items:center; gap:.6rem;
+  font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:.82rem; font-weight:600;
+  background:var(--paper-hi); border:2.5px dashed var(--ink);
+  border-radius:14px; padding:.5em .7em; cursor:pointer;
+  max-width:100%; transition:transform .12s;
+}
+.ca-chip:hover{ transform:translateY(-2px); }
+.ca-chip .lbl{ font-family:var(--font-d); font-weight:800; color:var(--red); text-transform:uppercase; font-size:.7rem; letter-spacing:.05em; }
+.ca-chip code{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.ca-chip .copy{ font-weight:800; }
+
+.socials{ display:flex; gap:.6rem; margin-top:1.2rem; }
+@media(max-width:900px){ .socials{ justify-content:center; } }
+.socials a{
+  width:46px; height:46px; display:grid; place-items:center;
+  border:2.5px solid var(--ink); border-radius:14px 30px 14px 28px / 28px 14px 30px 14px;
+  background:var(--paper-hi); box-shadow:var(--shadow-sm);
+  transition:transform .14s cubic-bezier(.34,1.56,.64,1), background .14s, color .14s;
+}
+.socials a:hover{ transform:translateY(-4px) rotate(-4deg); background:var(--ink); color:var(--paper-hi); }
+.socials svg{ width:22px; height:22px; }
+
+/* Hero art â beating handshake-heart */
+.hero-art{ position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:1.6rem; }
+
+/* compact live bounty stats under the badge */
+.hero-stats{ display:flex; flex-direction:column; align-items:center; gap:.7rem; width:100%; }
+.hstat-row{ display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; }
+.hstat{
+  background:var(--paper-hi); border:3px solid var(--ink);
+  box-shadow:var(--shadow-sm); padding:.75rem 1.25rem; text-align:center; min-width:128px;
+}
+.hstat.pool{ border-radius:32px 10px 30px 10px / 10px 30px 10px 32px; transform:rotate(-1.5deg); }
+.hstat.subs{ border-radius:28px 12px 30px 10px / 12px 28px 10px 30px; transform:rotate(.8deg); }
+.hstat.paid{ border-radius:10px 30px 10px 32px / 30px 10px 32px 10px; transform:rotate(-1deg); }
+.hstat-amt{ display:block; font-weight:800; font-size:clamp(1.8rem,3.4vw,2.4rem); line-height:1; filter:url(#crayonText); }
+.hstat.pool .hstat-amt{ color:var(--red); }
+.hstat.subs .hstat-amt{ color:var(--ink); }
+.hstat.paid .hstat-amt{ color:#1c7a3a; }
+.hstat-label{ display:block; font-family:var(--font-h); font-size:1.25rem; color:var(--ink-soft); margin-top:.2rem; }
+.hstat-foot{
+  display:inline-flex; align-items:center; gap:.45em; font-weight:700; font-size:.9rem; color:var(--ink-soft);
+  text-decoration:underline wavy var(--red); text-underline-offset:3px; transition:color .15s;
+}
+.hstat-foot:hover{ color:var(--ink); }
+.hstat-foot .live-dot{ width:.55em; height:.55em; border-radius:50%; background:var(--red); animation:pulse 1.6s infinite; flex:0 0 auto; }
+.bounty-ticker{ max-width:min(470px,92vw); font-size:1.25rem; min-height:2.7em; text-align:center; color:var(--red); text-decoration:none; }
+.bounty-ticker:hover{ color:var(--red-deep); }
+.see-all-btn{
+  display:inline-flex; align-items:center; gap:.4em; margin-top:.2rem; font-family:var(--font-d); font-weight:800; font-size:.95rem;
+  color:var(--paper-hi); background:var(--ink); border:3px solid var(--ink-deep); padding:.5em 1.1em;
+  border-radius:30px 12px 28px 12px / 12px 28px 12px 30px; box-shadow:4px 4px 0 var(--ink-deep); filter:url(#crayon);
+  transition:transform .12s var(--ease), box-shadow .12s var(--ease);
+}
+.see-all-btn:hover{ transform:translate(-2px,-2px) rotate(-1deg); box-shadow:6px 6px 0 var(--ink-deep); }
+.see-all-btn:active{ transform:translate(2px,2px); box-shadow:2px 2px 0 var(--ink-deep); }
+.bounty-ticker .bt-text{ display:inline-block; min-width:0; white-space:normal; text-align:center; text-wrap:balance; line-height:1.2; overflow:hidden; transform-origin:center; }
+.bounty-ticker .bt-text.out{ animation:btOut .18s cubic-bezier(.5,0,.9,.15) forwards; }
+.bounty-ticker .bt-text.in{ animation:btIn .58s cubic-bezier(.18,.9,.28,1.4); }
+@keyframes btOut{ to{ opacity:0; transform:translateY(-1.1em) rotate(-10deg) scale(.5); } }
+@keyframes btIn{
+  0%{ opacity:0; transform:translateY(1.2em) rotate(12deg) scale(.4); }
+  55%{ opacity:1; transform:translateY(-.14em) rotate(-5deg) scale(1.18); }
+  78%{ transform:translateY(0) rotate(2deg) scale(.97); }
+  100%{ opacity:1; transform:none; }
+}
+.badge{
+  position:relative; width:min(360px,72vw); aspect-ratio:1;
+  border-radius:50%; background:var(--paper);
+  border:4px solid var(--ink);
+  box-shadow:10px 12px 0 var(--ink-deep), inset 0 0 0 12px var(--paper-hi);
+  display:grid; place-items:center;
+  animation:beat 2.4s ease-in-out infinite;
+}
+.badge img{ width:74%; }
+@keyframes beat{ 0%,100%{ transform:scale(1);} 14%{ transform:scale(1.05);} 28%{ transform:scale(1);} 42%{ transform:scale(1.04);} 56%{ transform:scale(1);} }
+
+/* rotating dashed ring */
+.badge .ring{ position:absolute; inset:-26px; border:3px dashed var(--ink-soft); border-radius:50%; opacity:.6; animation:spin 30s linear infinite; }
+@keyframes spin{ to{ transform:rotate(360deg);} }
+
+/* floating doodles */
+.float{ position:absolute; pointer-events:none; color:var(--red); animation:bob 5s ease-in-out infinite; }
+.float.b{ color:var(--ink); }
+@keyframes bob{ 0%,100%{ transform:translateY(0) rotate(var(--rot,0deg)); } 50%{ transform:translateY(-14px) rotate(calc(var(--rot,0deg) + 6deg)); } }
+
+/* =====================  SECTION SCAFFOLD  ========================== */
+section.block{ padding:clamp(3rem,8vw,6rem) 0; position:relative; }
+.sec-head{ text-align:center; margin-bottom:2.6rem; }
+.sec-head .eyebrow{ margin-bottom:.2rem; }
+
+/* reveal on scroll */
+.reveal{ opacity:0; transform:translateY(26px) rotate(-1deg); transition:opacity .6s ease, transform .6s cubic-bezier(.34,1.4,.64,1); }
+.reveal.in{ opacity:1; transform:none; }
+
+/* =====================  MISSION  =================================== */
+.mission{ background:var(--paper-2); border-block:3px solid var(--ink); position:relative; }
+.mission .wrap{ display:grid; grid-template-columns:1fr 1fr; gap:2.4rem; align-items:center; }
+@media(max-width:840px){ .mission .wrap{ grid-template-columns:1fr; } }
+.mission .copy p{ font-size:1.15rem; font-weight:500; max-width:40ch; }
+.mission .copy .big{ font-family:var(--font-h); font-size:1.8rem; color:var(--red); line-height:1.2; transform:rotate(-1.2deg); }
+.point-cards{ display:grid; gap:1.1rem; }
+.point{
+  display:flex; gap:1rem; align-items:flex-start; padding:1.1rem 1.3rem;
+  border:3px solid var(--ink); border-radius:var(--r3); background:var(--paper-hi);
+  box-shadow:var(--shadow-sm);
+}
+.point:nth-child(even){ transform:rotate(1deg); }
+.point:nth-child(odd){ transform:rotate(-1deg); }
+.point .num{ font-family:var(--font-h); font-size:2.4rem; color:var(--red); line-height:1; }
+.point h3{ font-size:1.15rem; }
+.point p{ margin:.2rem 0 0; font-size:.98rem; font-weight:500; }
+
+/* =====================  FLYWHEEL  ================================= */
+.flywheel-grid{ display:grid; grid-template-columns:repeat(5,1fr); gap:1rem; counter-reset:step; }
+@media(max-width:960px){ .flywheel-grid{ grid-template-columns:repeat(2,1fr); } }
+@media(max-width:520px){ .flywheel-grid{ grid-template-columns:1fr; } }
+.step{
+  position:relative; text-align:center; padding:1.6rem 1.1rem 1.4rem;
+  border:3px solid var(--ink); background:var(--paper-hi);
+  box-shadow:var(--shadow-sm);
+}
+.step:nth-child(odd){ border-radius:var(--r1); }
+.step:nth-child(even){ border-radius:var(--r2); }
+.step .emoji{ font-size:2.4rem; display:block; line-height:1; margin-bottom:.5rem; filter:saturate(.9); }
+.step .n{
+  position:absolute; top:-18px; left:50%; transform:translateX(-50%);
+  width:38px; height:38px; display:grid; place-items:center;
+  background:var(--red); color:var(--paper-hi); font-weight:800;
+  border:3px solid var(--red-deep); border-radius:50%; box-shadow:2px 2px 0 var(--red-deep);
+}
+.step h3{ font-size:1.05rem; margin-top:.2rem; }
+.step p{ font-size:.9rem; font-weight:500; margin:.3rem 0 0; }
+.step .arrow{ position:absolute; right:-22px; top:50%; transform:translateY(-50%); color:var(--ink); z-index:2; }
+@media(max-width:960px){ .step .arrow{ display:none; } }
+.flywheel-note{ text-align:center; margin-top:2rem; font-family:var(--font-h); font-size:1.5rem; color:var(--red); transform:rotate(-1deg); }
+
+/* =====================  LIVE STATS BAND  ========================= */
+.stats-band{ background:var(--paper-2); border-block:3px solid var(--ink); }
+.stat-cards{ display:grid; grid-template-columns:1fr 1fr; gap:1.8rem; max-width:860px; margin:0 auto; }
+@media(max-width:680px){ .stat-cards{ grid-template-columns:1fr; max-width:420px; } }
+.stat-card{
+  position:relative; text-align:center; padding:2rem 1.4rem 1.7rem;
+  background:var(--paper-hi); border:3px solid var(--ink); box-shadow:var(--shadow);
+}
+.stat-card.paid{ border-radius:var(--r1); transform:rotate(-1deg); }
+.stat-card.pool{ border-radius:var(--r2); transform:rotate(1deg); }
+.stat-amt{ font-size:clamp(2.8rem,7vw,4.6rem); font-weight:800; color:var(--ink); line-height:1; filter:url(#crayonText); }
+.stat-card.paid .stat-amt{ color:#1c7a3a; }
+.stat-card.pool .stat-amt{ color:var(--red); }
+.stat-label{ font-family:var(--font-h); font-size:1.6rem; color:var(--ink); margin-top:.3rem; }
+.stat-sub{ font-size:.85rem; font-weight:600; color:var(--ink-soft); margin-top:.35rem; min-height:1.1em; }
+.stat-foot{ text-align:center; margin:2rem 0 0; font-weight:600; color:var(--ink-soft); font-size:.92rem; }
+.stat-foot a{ color:var(--ink); text-decoration:underline wavy var(--red); }
+.stat-foot .live-dot{ display:inline-block; width:.6em; height:.6em; border-radius:50%; background:var(--red); margin-right:.45em; vertical-align:middle; animation:pulse 1.6s infinite; }
+
+/* =====================  BOUNTY BOARD  ============================= */
+.board{ background:var(--ink); border-block:3px solid var(--ink-deep); color:var(--paper-hi); }
+.board .eyebrow{ color:var(--paper-hi); }
+.board .h-sec{ color:var(--paper-hi); }
+.board .sub{ text-align:center; color:rgba(249,241,220,.8); font-weight:500; max-width:46ch; margin:.6rem auto 2.6rem; }
+.cards{ display:grid; grid-template-columns:repeat(3,1fr); gap:1.8rem; }
+@media(max-width:820px){ .cards{ grid-template-columns:1fr; max-width:420px; margin-inline:auto; } }
+.card{
+  position:relative; background:var(--paper-hi); color:var(--ink);
+  border:3px solid var(--ink-deep); border-radius:8px;
+  padding:2rem 1.4rem 1.5rem; box-shadow:8px 10px 0 rgba(0,0,0,.25);
+}
+.card:nth-child(1){ transform:rotate(-2.2deg); }
+.card:nth-child(2){ transform:rotate(1.4deg); }
+.card:nth-child(3){ transform:rotate(-1.2deg); }
+.card:hover{ transform:rotate(0) translateY(-6px); transition:transform .25s cubic-bezier(.34,1.5,.64,1); }
+.card .pin{
+  position:absolute; top:-16px; left:50%; transform:translateX(-50%);
+  width:26px; height:26px; border-radius:50%;
+  background:radial-gradient(circle at 35% 30%, #ff8a7a, var(--red) 60%, var(--red-deep));
+  box-shadow:0 4px 6px rgba(0,0,0,.35), inset -2px -2px 3px rgba(0,0,0,.3);
+}
+.card .reward{ font-family:var(--font-h); font-size:1.9rem; color:var(--red); line-height:1; }
+.card h3{ font-size:1.3rem; margin:.3rem 0 .5rem; }
+.card p{ font-size:.96rem; font-weight:500; margin:0 0 1rem; }
+.card .meta{ display:flex; align-items:center; gap:.5rem; font-size:.78rem; font-weight:700; text-transform:uppercase; letter-spacing:.04em; color:var(--ink-soft); border-top:2px dashed var(--line); padding-top:.7rem; }
+.card .meta .live{ width:.5em; height:.5em; border-radius:50%; background:var(--red); box-shadow:0 0 0 0 var(--red); animation:pulse 1.6s infinite; }
+@keyframes pulse{ 0%{ box-shadow:0 0 0 0 rgba(226,80,62,.6);} 70%{ box-shadow:0 0 0 8px rgba(226,80,62,0);} 100%{ box-shadow:0 0 0 0 rgba(226,80,62,0);} }
+.board .disclaimer{ text-align:center; margin-top:2.4rem; color:rgba(249,241,220,.7); font-size:.85rem; font-weight:500; font-style:italic; }
+
+/* =====================  HOW TO BUY  ============================== */
+.buy-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:1.4rem; }
+@media(max-width:860px){ .buy-grid{ grid-template-columns:repeat(2,1fr); } }
+@media(max-width:480px){ .buy-grid{ grid-template-columns:1fr; } }
+.buy-step{ position:relative; padding:1.6rem 1.3rem; border:3px solid var(--ink); border-radius:var(--r3); background:var(--paper-hi); box-shadow:var(--shadow-sm); }
+.buy-step .bn{ font-family:var(--font-h); font-size:3rem; color:var(--red); line-height:.8; }
+.buy-step h3{ font-size:1.15rem; margin:.3rem 0 .4rem; }
+.buy-step p{ font-size:.95rem; font-weight:500; margin:0; }
+.buy-step a{ color:var(--ink); text-decoration:underline wavy var(--red); }
+
+/* =====================  CTA BAND  =============================== */
+.cta-band{ text-align:center; padding:clamp(3rem,8vw,5rem) 0; }
+.cta-band .box{ max-width:760px; margin-inline:auto; padding:clamp(2rem,5vw,3.2rem); position:relative; }
+.cta-band h2{ font-size:clamp(2rem,6vw,3.4rem); }
+.cta-band p{ font-size:1.2rem; font-weight:500; max-width:34ch; margin:.8rem auto 1.6rem; }
+.cta-band .cta-row{ justify-content:center; }
+.cta-band .mini-heart{ position:absolute; color:var(--red); }
+
+/* =====================  CONTACT BAND  =========================== */
+.contact-band{ text-align:center; padding:clamp(1.5rem,4vw,3rem) 0 clamp(1rem,3vw,2.5rem); }
+.contact-box{ max-width:620px; margin-inline:auto; padding:clamp(1.6rem,4vw,2.6rem); background:var(--paper-2); }
+.contact-band h2{ font-size:clamp(1.7rem,4.5vw,2.6rem); margin:.1rem 0 0; }
+.contact-band p{ font-weight:500; max-width:42ch; margin:.6rem auto 1.4rem; }
+.contact-mail{ font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:1rem; word-break:break-word; }
+
+/* =====================  FOOTER  ================================= */
+footer{ border-top:3px solid var(--ink); background:var(--paper-2); padding:2.6rem 0 1.6rem; }
+.foot-grid{ display:flex; flex-wrap:wrap; gap:1.5rem; align-items:center; justify-content:space-between; }
+.foot-brand{ display:flex; align-items:center; gap:.7rem; font-weight:800; font-size:1.25rem; }
+.foot-brand img{ width:48px; height:48px; border-radius:50%; border:2.5px solid var(--ink); box-shadow:var(--shadow-sm); }
+.foot-ca{ width:100%; }
+.legal{ margin-top:1.6rem; padding-top:1.2rem; border-top:2px dashed var(--line); font-size:.82rem; font-weight:500; color:var(--ink-soft); line-height:1.6; }
+
+/* toast */
+.toast{
+  position:fixed; left:50%; bottom:28px; transform:translateX(-50%) translateY(160%);
+  background:var(--ink); color:var(--paper-hi); font-weight:700;
+  padding:.7em 1.3em; border-radius:14px 30px 14px 30px / 30px 14px 30px 14px;
+  border:3px solid var(--ink-deep); box-shadow:var(--shadow); z-index:200;
+  opacity:0; visibility:hidden; pointer-events:none;
+  transition:transform .3s cubic-bezier(.34,1.56,.64,1), opacity .25s ease, visibility .3s;
+}
+.toast.show{ transform:translateX(-50%) translateY(0); opacity:1; visibility:visible; }
+
+/* =====================  CRAYON TEXTURE  ========================== */
+/* wobbly waxy edges on the hand-drawn boxes & chips */
+.btn, .tag, .ca-chip, .point, .buy-step, .step, .card,
+.sketch, .socials a, .toast, .step .n, .brand img, .foot-brand img, .hstat{
+  filter:url(#crayon);
+}
+/* gentle crayon wobble on display type */
+.h-sec, .eyebrow, .flywheel-note, .card .reward,
+.point .num, .buy-step .bn, .step h3, .card h3, .brand .tk{
+  filter:url(#crayonText);
+}
+/* heavier rough on little doodles & arrows */
+.float, .step .arrow, .scribble-underline svg, .mini-heart, .ca-chip{
+  filter:url(#crayonRough);
+}
+.ca-chip{ filter:url(#crayon); } /* keep chip border legible */
+
+/* waxy streaks inside solid-colour fills (crayon coverage, not flat ink) */
+:root{
+  --wax:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='280' height='280'%3E%3Cfilter id='w'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85 0.3' numOctaves='2' seed='5'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1.25 1.1'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23w)'/%3E%3C/svg%3E");
+}
+.btn, .marquee, .board, .step .n, .card .reward-tab{ position:relative; }
+.btn::after, .marquee::after, .step .n::after{
+  content:""; position:absolute; inset:0; border-radius:inherit;
+  pointer-events:none; opacity:.5; mix-blend-mode:soft-light;
+  background-image:var(--wax); background-size:190px 190px;
+}
+.btn::after{ z-index:1; }
+.btn > *{ position:relative; z-index:2; }
+.marquee::after{ z-index:1; }
+.marquee .track{ position:relative; z-index:2; }
+/* waxy wash across the whole blue board, sitting behind the content */
+.board::after{
+  content:""; position:absolute; inset:0; pointer-events:none; z-index:0;
+  opacity:.4; mix-blend-mode:soft-light;
+  background-image:var(--wax); background-size:240px 240px;
+}
+
+/* stronger paper tooth so crayon sits on a textured surface */
+body::before{ opacity:.07; }
+
+/* =====================  SUBMIT MODAL  ============================ */
+.modal-overlay{
+  position:fixed; inset:0; z-index:300; display:grid; place-items:center; padding:1.2rem;
+  background:rgba(67,52,31,.5); backdrop-filter:blur(4px);
+  opacity:0; visibility:hidden; transition:opacity .25s ease, visibility .25s;
+}
+.modal-overlay.open{ opacity:1; visibility:visible; }
+.modal{
+  position:relative; width:min(560px,100%); max-height:90vh; overflow:auto;
+  padding:2rem 1.8rem 1.8rem; background:var(--paper-hi);
+  border:3px solid var(--ink); border-radius:var(--r1); box-shadow:10px 12px 0 var(--ink-deep);
+  transform:translateY(18px) scale(.97); transition:transform .3s cubic-bezier(.34,1.56,.64,1);
+}
+.modal-overlay.open .modal{ transform:none; }
+.modal .eyebrow{ font-size:1.4rem; }
+.modal-close{
+  position:absolute; top:.8rem; right:.8rem; width:40px; height:40px; cursor:pointer;
+  border:3px solid var(--ink); background:var(--paper); color:var(--ink);
+  border-radius:14px 26px 14px 26px / 26px 14px 26px 14px;
+  font-family:var(--font-d); font-weight:800; font-size:1.05rem; box-shadow:var(--shadow-sm);
+  transition:transform .12s;
+}
+.modal-close:hover{ transform:rotate(-6deg) scale(1.06); }
+.modal-title{ font-size:clamp(1.8rem,5vw,2.4rem); margin:.05rem 0 .4rem; }
+.modal-sub{ font-weight:500; margin:0 0 1.3rem; }
+.field{ display:block; margin-bottom:1.1rem; }
+.flabel{ display:block; font-weight:700; margin-bottom:.4rem; }
+.flabel em{ color:var(--red); font-style:normal; }
+.flabel em.opt{ color:var(--ink-soft); font-weight:600; font-size:.82em; }
+.modal input[type=email], .modal textarea{
+  width:100%; font-family:var(--font-d); font-size:1rem; font-weight:500; color:var(--ink);
+  background:var(--paper); border:3px solid var(--ink);
+  border-radius:18px 8px 18px 8px / 8px 18px 8px 18px; padding:.7em .9em; resize:vertical;
+}
+.modal input::placeholder, .modal textarea::placeholder{ color:rgba(7,62,143,.45); }
+.modal input:focus, .modal textarea:focus{ outline:none; border-color:var(--red); box-shadow:3px 3px 0 var(--red-deep); }
+.dropzone{
+  display:flex; flex-direction:column; align-items:center; gap:.3rem; text-align:center; cursor:pointer;
+  padding:1.3rem; color:var(--ink-soft); background:var(--paper);
+  border:3px dashed var(--ink); border-radius:20px 8px 22px 8px / 8px 20px 8px 22px;
+  transition:background .15s, border-color .15s, color .15s;
+}
+.dropzone:hover, .dropzone.drag{ background:#fff7e6; border-color:var(--red); color:var(--ink); }
+.dz-ico{ font-size:1.6rem; }
+.dz-text{ font-weight:600; font-size:.95rem; }
+.filelist{ list-style:none; margin:.8rem 0 0; padding:0; display:grid; gap:.5rem; }
+.fileitem{
+  position:relative; display:grid; grid-template-columns:1fr auto auto; align-items:center; gap:.6rem;
+  padding:.5em .7em .65em; background:var(--paper); border:2.5px solid var(--ink);
+  border-radius:14px 6px 14px 6px / 6px 14px 6px 14px; font-size:.85rem; font-weight:600; overflow:hidden;
+}
+.fileitem.bad{ border-color:var(--red); color:var(--red-deep); }
+.fi-name{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.fi-size{ color:var(--ink-soft); font-size:.76rem; white-space:nowrap; }
+.fi-x{ border:none; background:none; color:var(--red); font-weight:800; cursor:pointer; font-size:.9rem; line-height:1; }
+.fi-bar{ position:absolute; left:0; right:0; bottom:0; height:4px; background:rgba(7,62,143,.15); }
+.fi-bar i{ display:block; height:100%; width:0; background:var(--red); transition:width .2s ease; }
+.cf-field{ display:flex; justify-content:center; min-height:65px; }
+.submit-btn{ width:100%; justify-content:center; margin-top:.2rem; }
+.submit-btn[disabled]{ opacity:.6; cursor:wait; }
+.form-status{ min-height:1.2em; margin:.7rem 0 0; font-weight:700; text-align:center; }
+.form-status.err{ color:var(--red-deep); }
+.form-status.ok{ color:#1c7a3a; }
+
+@media (prefers-reduced-motion: reduce){
+  *{ animation:none !important; }
+  .reveal{ opacity:1; transform:none; }
+}
+</style>
+</head>
+<body>
+
+<!-- ============ CRAYON FILTERS ============ -->
+<svg class="crayon-defs" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden;">
+  <defs>
+    <!-- wobbly waxy edge for boxes / buttons -->
+    <filter id="crayon" x="-15%" y="-15%" width="130%" height="130%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.014 0.02" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="4" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <!-- gentler displacement for text so it stays legible -->
+    <filter id="crayonText" x="-8%" y="-12%" width="116%" height="124%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.022 0.03" numOctaves="2" seed="11" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <!-- heavier rough for little doodles / strokes -->
+    <filter id="crayonRough" x="-30%" y="-30%" width="160%" height="160%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.03 0.04" numOctaves="2" seed="3" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3.5"/>
+    </filter>
+    <!-- fine waxy grain used as a streaky texture mask -->
+    <filter id="waxGrain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9 0.35" numOctaves="2" seed="5" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.1 1.05"/>
+    </filter>
+  </defs>
+</svg>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">
+      <img src="./pumpchance_icon_t.png" alt="$chance logo" decoding="async" fetchpriority="high" />
+      <span class="tk">$chance</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#mission">Mission</a>
+      <a href="#how">How it works</a>
+      <a href="/bounties/">Bounties</a>
+      <a href="#" data-open="bounty">Suggest idea</a>
+      <a href="#buy">How to buy</a>
+      <a href="mailto:team@pumpchance.com">Contact</a>
+    </nav>
+    <a class="btn" href="https://pump.fun/coin/coming soon on pump.fun" data-link="pump">Buy $chance <span class="ico">â</span></a>
+  </div>
+</header>
+
+<!-- ============ LIVE STREAM (auto-appears only while broadcasting) ============ -->
+<section class="live-band" id="liveBand" hidden aria-live="polite">
+  <div class="wrap live-inner">
+    <div class="live-head">
+      <span class="live-pill"><span class="live-dot"></span> Live now</span>
+      <h2 class="live-title">chancecast: now live</h2>
+    </div>
+    <div class="live-frame">
+      <div class="live-ratio" id="liveMount"><!-- player injected here only when live --></div>
+    </div>
+  </div>
+</section>
+
+<style>
+/* ---- Live stream band: hidden unless the Cloudflare Stream input is broadcasting ---- */
+.live-band{ padding:clamp(20px,4vw,44px) 0 clamp(6px,1.6vw,16px); }
+.live-band[hidden]{ display:none; }
+.live-band:not([hidden]){ animation:liveIn .5s cubic-bezier(.34,1.56,.64,1) both; }
+@keyframes liveIn{ from{ opacity:0; transform:translateY(-16px) rotate(-.5deg);} to{ opacity:1; transform:none;} }
+.live-inner{ display:flex; flex-direction:column; align-items:center; gap:clamp(10px,2vw,18px); }
+.live-head{ display:flex; align-items:center; justify-content:center; gap:.7em; flex-wrap:wrap; text-align:center; }
+.live-pill{
+  display:inline-flex; align-items:center; gap:.5em;
+  font-weight:800; font-size:.82rem; letter-spacing:.07em; text-transform:uppercase;
+  color:var(--paper-hi); background:var(--red);
+  padding:.42em .95em;
+  border:2.5px solid var(--red-deep);
+  border-radius:40px 14px 38px 14px / 14px 36px 14px 40px;
+  box-shadow:4px 4px 0 var(--red-deep);
+  transform:rotate(-1.5deg);
+}
+.live-dot{
+  width:.6em; height:.6em; border-radius:50%; background:var(--paper-hi);
+  animation:livePulse 1.4s ease-out infinite;
+}
+@keyframes livePulse{
+  0%{ box-shadow:0 0 0 0 rgba(249,241,220,.75);}
+  70%{ box-shadow:0 0 0 8px rgba(249,241,220,0);}
+  100%{ box-shadow:0 0 0 0 rgba(249,241,220,0);}
+}
+.live-title{ font-family:var(--font-h); font-weight:700; margin:0; color:var(--ink); font-size:clamp(1.5rem,4vw,2.35rem); line-height:1.05; }
+.live-frame{
+  width:min(880px,100%);
+  padding:10px;
+  background:var(--paper-hi);
+  border:3px solid var(--ink);
+  border-radius:var(--r3);
+  box-shadow:var(--shadow);
+  transform:rotate(-.5deg);
+}
+.live-ratio{
+  position:relative; padding-top:56.25%;
+  overflow:hidden; background:#000;
+  border-radius:calc(var(--r3) - 4px);
+}
+.live-ratio iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; }
+</style>
+
+<script>
+/* Poll Cloudflare Stream's public /lifecycle endpoint; show the player only while live. */
+(function(){
+  var S = { customer:"customer-n199licp40spw5u4", video:"dad71f77f0d5a40d27dab714a07805cc", pollMs:30000 };
+  var band = document.getElementById('liveBand');
+  var mount = document.getElementById('liveMount');
+  if(!band || !mount) return;
+  var origin = "https://" + S.customer + ".cloudflarestream.com/" + S.video;
+  var showing = false;
+
+  function show(){
+    if(showing) return;
+    showing = true;
+    if(!mount.querySelector('iframe')){
+      var f = document.createElement('iframe');
+      f.src = origin + "/iframe?autoplay=true&muted=true&primaryColor=%230158cb&letterboxColor=transparent";
+      f.allow = "accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;";
+      f.allowFullscreen = true;
+      f.title = "Pumpchance live stream";
+      mount.appendChild(f);
+    }
+    band.hidden = false;
+  }
+  function hide(){
+    if(!showing) return;
+    showing = false;
+    band.hidden = true;
+    mount.innerHTML = "";   // drop the iframe so it stops loading when offline
+  }
+  function check(){
+    fetch(origin + "/lifecycle", { cache:"no-store" })
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(d){ (d && d.live === true) ? show() : hide(); })
+      .catch(function(){ /* transient network error â keep current state */ });
+  }
+  // ?forcelive in the URL forces the hero on (layout preview / QA only â normal visitors never hit this).
+  if(/[?&]forcelive\b/i.test(location.search)){ show(); return; }
+  check();
+  setInterval(check, S.pollMs);
+})();
+</script>
+
+<!-- ============ HERO ============ -->
+<main id="top" class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="tag"><span class="dot"></span> $PUMPCHANCE on Solana</span>
+
+      <h1 class="hero-title" aria-label="a chance to be kind">
+        a chance<br />
+        to be <span class="rotator"><span class="rot-word" id="rotWord">kind</span></span>
+      </h1>
+
+      <p class="lede">A coin with a mission: <b>get paid to do good.</b> Pull off a good deed, post the video, and watch it take over the internet.</p>
+
+      <div class="cta-row">
+        <a class="btn" href="https://pump.fun/coin/coming soon on pump.fun" data-link="pump">Buy on pump.fun <span class="ico">ð</span></a>
+        <button class="btn red" type="button" data-open="bounty">Suggest a bounty idea <span class="ico">ð¡</span></button>
+        <button class="btn ghost" id="copyCa">Copy contract <span class="ico">â§</span></button>
+        <a class="btn ghost" href="/content">Content vault <span class="ico">â</span></a>
+      </div>
+
+      <div class="ca-chip" id="caChip" title="Click to copy">
+        <span class="lbl">CA</span>
+        <code id="caText">coming soon on pump.fun</code>
+        <span class="copy">â§</span>
+      </div>
+
+      <div class="socials">
+        <a href="https://x.com/pumpchance/" data-link="x" aria-label="X / Twitter">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@pumpchancesol" data-link="tiktok" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82a4.28 4.28 0 0 1-1.06-2.82h-3.2v12.46a2.59 2.59 0 1 1-1.84-2.48V9.7a5.78 5.78 0 1 0 5.04 5.73V9.01a7.4 7.4 0 0 0 4.32 1.38V7.18a4.28 4.28 0 0 1-3.26-1.36z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/pumpchancesol" data-link="ig" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.43-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.12 1.38C1.36 2.67.95 3.34.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.8.72 1.47 1.38 2.13.66.66 1.33 1.07 2.12 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.8-.31 1.47-.72 2.13-1.38.66-.66 1.07-1.33 1.38-2.13.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.31-.8-.72-1.46-1.38-2.12-.66-.66-1.33-1.07-2.13-1.38-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zm0 10.16A4 4 0 1 1 16 12a4 4 0 0 1-4 4zm6.41-10.4a1.44 1.44 0 1 0 1.44 1.44 1.44 1.44 0 0 0-1.44-1.44z"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@pumpchancesol" data-link="yt" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.5a3 3 0 0 0-2.1-2.12C19.5 3.86 12 3.86 12 3.86s-7.5 0-9.4.52A3 3 0 0 0 .5 6.5 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.5 3 3 0 0 0 2.1 2.12c1.9.52 9.4.52 9.4.52s7.5 0 9.4-.52a3 3 0 0 0 2.1-2.12A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.5zM9.6 15.6V8.4l6.2 3.6z"/></svg>
+        </a>
+        <a href="mailto:team@pumpchance.com" aria-label="Email us">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-art">
+      <!-- floating doodles -->
+      <svg class="float" style="top:2%; left:6%; --rot:-8deg;" width="44" height="44" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-8-5.3-8-11A4.5 4.5 0 0 1 12 6a4.5 4.5 0 0 1 8 4c0 5.7-8 11-8 11z"/></svg>
+      <svg class="float b" style="top:8%; right:2%; --rot:10deg; animation-delay:-1.2s;" width="36" height="36" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 6.6L21 9.2l-5 4.3L17.6 20 12 16.5 6.4 20 8 13.5 3 9.2l6.4-.6z"/></svg>
+      <svg class="float" style="bottom:6%; left:0%; --rot:6deg; animation-delay:-2.4s;" width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-8-5.3-8-11A4.5 4.5 0 0 1 12 6a4.5 4.5 0 0 1 8 4c0 5.7-8 11-8 11z"/></svg>
+      <svg class="float b" style="bottom:12%; right:6%; --rot:-12deg; animation-delay:-3.1s;" width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 6.6L21 9.2l-5 4.3L17.6 20 12 16.5 6.4 20 8 13.5 3 9.2l6.4-.6z"/></svg>
+
+      <div class="badge">
+        <span class="ring"></span>
+        <img src="./pumpchance_icon_t.png" alt="Hand-drawn handshake forming a heart" decoding="async" fetchpriority="high" />
+      </div>
+
+      <!-- live bounty stats -->
+      <div class="hero-stats">
+        <div class="hstat-row">
+          <div class="hstat pool">
+            <span class="hstat-amt">$<span id="poolAmt">0</span></span>
+            <span class="hstat-label">up for grabs</span>
+          </div>
+          <div class="hstat subs">
+            <span class="hstat-amt"><span id="subsAmt">0</span></span>
+            <span class="hstat-label">submissions</span>
+          </div>
+          <div class="hstat paid" id="paidStat" style="display:none">
+            <span class="hstat-amt">$<span id="paidAmt">0</span></span>
+            <span class="hstat-label">paid out</span>
+          </div>
+        </div>
+        <a class="hstat-foot bounty-ticker" id="bountyTicker" href="#" target="_blank" rel="noopener">
+          <span class="live-dot"></span> <span class="bt-text">live bounties on pump.fun â</span>
+        </a>
+        <a class="see-all-btn" href="/bounties/">see all bounties <span class="ico">â</span></a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- ============ MISSION ============ -->
+<section id="mission" class="block mission">
+  <div class="wrap">
+    <div class="copy reveal">
+      <span class="eyebrow">what is $chance?</span>
+      <h2 class="h-sec" style="margin:.2rem 0 1rem;">Bounties for doing <span class="scribble-underline">good
+        <svg viewBox="0 0 200 12" preserveAspectRatio="none"><path d="M2 8 C 40 2, 80 12, 120 6 S 180 2, 198 7" stroke="#e2503e" stroke-width="4" fill="none" stroke-linecap="round"/></svg>
+      </span></h2>
+      <p class="big">How can we change someone's life in a big way â with limited funds and a lot of heart?</p>
+      <p>$chance pays real people to do real good. Take your mom out for a nice meal. Feed someone who's hungry. Cover a stranger's groceries. We fund the mission, you make it happen, and we remind the world to do good.</p>
+      <p>The catch? <b>There isn't one.</b> The goal is that even without the bounty, you'd still want to do it.</p>
+    </div>
+
+    <div class="point-cards reveal">
+      <div class="point">
+        <span class="num">â </span>
+        <div><h3>Real impact, on purpose</h3><p>Small money, big ripple. Every bounty is designed to change a day â or a life.</p></div>
+      </div>
+      <div class="point">
+        <span class="num">â¡</span>
+        <div><h3>Good deeds, on camera</h3><p>Every mission becomes a video built to be shared, screenshotted and felt.</p></div>
+      </div>
+      <div class="point">
+        <span class="num">â¢</span>
+        <div><h3>A coin that means something</h3><p>The content goes viral, the community grows, and so does the good it can do.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FLYWHEEL ============ -->
+<section id="how" class="block">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">the flywheel</span>
+      <h2 class="h-sec">How $chance works</h2>
+    </div>
+
+    <div class="flywheel-grid reveal">
+      <div class="step">
+        <span class="n">1</span>
+        <span class="emoji">ð¯</span>
+        <h3>Get a bounty</h3>
+        <p>We post a good-deed mission with a reward attached.</p>
+        <svg class="arrow" width="34" height="20" viewBox="0 0 34 20" fill="none"><path d="M2 10 C 12 4, 22 16, 30 10" stroke="#0158cb" stroke-width="3" stroke-linecap="round"/><path d="M24 5l7 5-7 5" stroke="#0158cb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="step">
+        <span class="n">2</span>
+        <span class="emoji">ð¤</span>
+        <h3>Do the good deed</h3>
+        <p>Go out and actually make someone's day better.</p>
+        <svg class="arrow" width="34" height="20" viewBox="0 0 34 20" fill="none"><path d="M2 10 C 12 4, 22 16, 30 10" stroke="#0158cb" stroke-width="3" stroke-linecap="round"/><path d="M24 5l7 5-7 5" stroke="#0158cb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="step">
+        <span class="n">3</span>
+        <span class="emoji">ð¥</span>
+        <h3>Film it</h3>
+        <p>Capture the moment and post your bounty video.</p>
+        <svg class="arrow" width="34" height="20" viewBox="0 0 34 20" fill="none"><path d="M2 10 C 12 4, 22 16, 30 10" stroke="#0158cb" stroke-width="3" stroke-linecap="round"/><path d="M24 5l7 5-7 5" stroke="#0158cb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="step">
+        <span class="n">4</span>
+        <span class="emoji">ð£</span>
+        <h3>We amplify</h3>
+        <p>It goes out across X, Insta, TikTok &amp; YouTube.</p>
+        <svg class="arrow" width="34" height="20" viewBox="0 0 34 20" fill="none"><path d="M2 10 C 12 4, 22 16, 30 10" stroke="#0158cb" stroke-width="3" stroke-linecap="round"/><path d="M24 5l7 5-7 5" stroke="#0158cb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="step">
+        <span class="n">5</span>
+        <span class="emoji">ð</span>
+        <h3>It goes viral</h3>
+        <p>The good spreads, the coin grows, the flywheel spins again.</p>
+      </div>
+    </div>
+
+    <p class="flywheel-note reveal">â» give a little â spread kindness â do it all again âº</p>
+  </div>
+</section>
+
+<!-- ============ BOUNTY BOARD ============ -->
+<section id="bounties" class="block board">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">example ideas</span>
+      <h2 class="h-sec">Missions worth making</h2>
+      <p class="sub">Just a taste of the <b>kind</b> of missions $chance funds â these are examples to spark ideas, not live bounties. The real, funded ones are up top &amp; on pump.fun.</p>
+    </div>
+
+    <div class="cards">
+      <div class="card reveal">
+        <span class="pin"></span>
+        <span class="reward">example</span>
+        <h3>Treat your mom</h3>
+        <p>Take your mom out for a really nice meal â just because she deserves it. Tell her it's from $chance.</p>
+        <div class="meta">ð¡ example mission</div>
+      </div>
+      <div class="card reveal">
+        <span class="pin"></span>
+        <span class="reward">example</span>
+        <h3>Feed the hungry</h3>
+        <p>Buy warm meals for people sleeping rough in your city and hand them out with a smile.</p>
+        <div class="meta">ð¡ example mission</div>
+      </div>
+      <div class="card reveal">
+        <span class="pin"></span>
+        <span class="reward">example</span>
+        <h3>Cover the groceries</h3>
+        <p>Step in at the checkout and quietly pay for a stranger's groceries. No strings. No catch.</p>
+        <div class="meta">ð¡ example mission</div>
+      </div>
+    </div>
+
+    <p class="disclaimer">These are example ideas, not live bounties. Real, funded bounties appear in the stats above and on pump.fun.</p>
+  </div>
+</section>
+
+<!-- ============ HOW TO BUY ============ -->
+<section id="buy" class="block">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">join in</span>
+      <h2 class="h-sec">How to buy $chance</h2>
+    </div>
+
+    <div class="buy-grid reveal">
+      <div class="buy-step">
+        <div class="bn">1</div>
+        <h3>Get a wallet</h3>
+        <p>Download <a href="https://phantom.app" target="_blank" rel="noopener">Phantom</a> or any Solana wallet on your phone or browser.</p>
+      </div>
+      <div class="buy-step">
+        <div class="bn">2</div>
+        <h3>Add some SOL</h3>
+        <p>Buy Solana on an exchange and send it to your wallet, or buy in-app.</p>
+      </div>
+      <div class="buy-step">
+        <div class="bn">3</div>
+        <h3>Open pump.fun</h3>
+        <p>Connect your wallet and paste the <b>$chance</b> contract address from above.</p>
+      </div>
+      <div class="buy-step">
+        <div class="bn">4</div>
+        <h3>Swap &amp; do good</h3>
+        <p>Swap SOL for $chance â and you're part of the flywheel. ð</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<section class="cta-band">
+  <div class="wrap">
+    <div class="box sketch reveal">
+      <svg class="mini-heart" style="top:-18px; left:8%; transform:rotate(-12deg);" width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-8-5.3-8-11A4.5 4.5 0 0 1 12 6a4.5 4.5 0 0 1 8 4c0 5.7-8 11-8 11z"/></svg>
+      <svg class="mini-heart" style="bottom:-16px; right:10%; transform:rotate(14deg);" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-8-5.3-8-11A4.5 4.5 0 0 1 12 6a4.5 4.5 0 0 1 8 4c0 5.7-8 11-8 11z"/></svg>
+      <span class="eyebrow">ready?</span>
+      <h2>Take your chance to do good.</h2>
+      <p>Grab $chance, do some good, and help it go viral.</p>
+      <div class="cta-row">
+        <a class="btn red" href="https://pump.fun/coin/coming soon on pump.fun" data-link="pump">Buy on pump.fun <span class="ico">ð</span></a>
+        <button class="btn" type="button" data-open="bounty">Suggest a bounty idea <span class="ico">ð¡</span></button>
+        <a class="btn ghost" href="https://x.com/pumpchance/" data-link="x">Follow the journey <span class="ico">â</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact-band">
+  <div class="wrap">
+    <div class="contact-box sketch reveal">
+      <span class="eyebrow">say hello</span>
+      <h2>Want to get in touch?</h2>
+      <p>Questions, ideas, press or collabs â drop us a line and we'll get back to you.</p>
+      <a class="btn red contact-mail" href="mailto:team@pumpchance.com"><span class="ico">â</span> team@pumpchance.com</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <a class="foot-brand" href="#top">
+        <img src="./pumpchance_icon_t.png" alt="$chance" decoding="async" />
+        <span>$chance â a chance to be kind</span>
+      </a>
+      <div class="socials">
+        <a href="https://x.com/pumpchance/" data-link="x" aria-label="X / Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+        <a href="https://www.tiktok.com/@pumpchancesol" data-link="tiktok" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82a4.28 4.28 0 0 1-1.06-2.82h-3.2v12.46a2.59 2.59 0 1 1-1.84-2.48V9.7a5.78 5.78 0 1 0 5.04 5.73V9.01a7.4 7.4 0 0 0 4.32 1.38V7.18a4.28 4.28 0 0 1-3.26-1.36z"/></svg></a>
+        <a href="https://www.instagram.com/pumpchancesol" data-link="ig" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.43-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.12 1.38C1.36 2.67.95 3.34.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.8.72 1.47 1.38 2.13.66.66 1.33 1.07 2.12 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.8-.31 1.47-.72 2.13-1.38.66-.66 1.07-1.33 1.38-2.13.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.31-.8-.72-1.46-1.38-2.12-.66-.66-1.33-1.07-2.13-1.38-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zm0 10.16A4 4 0 1 1 16 12a4 4 0 0 1-4 4zm6.41-10.4a1.44 1.44 0 1 0 1.44 1.44 1.44 1.44 0 0 0-1.44-1.44z"/></svg></a>
+        <a href="https://www.youtube.com/@pumpchancesol" data-link="yt" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.5a3 3 0 0 0-2.1-2.12C19.5 3.86 12 3.86 12 3.86s-7.5 0-9.4.52A3 3 0 0 0 .5 6.5 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.5 3 3 0 0 0 2.1 2.12c1.9.52 9.4.52 9.4.52s7.5 0 9.4-.52a3 3 0 0 0 2.1-2.12A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.5zM9.6 15.6V8.4l6.2 3.6z"/></svg></a>
+        <a href="mailto:team@pumpchance.com" aria-label="Email us"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
+      </div>
+    </div>
+
+    <div class="ca-chip foot-ca" id="caChip2" title="Click to copy" style="margin-top:1.4rem;">
+      <span class="lbl">CA</span>
+      <code id="caText2">coming soon on pump.fun</code>
+      <span class="copy">â§</span>
+    </div>
+
+    <p class="legal" data-nosnippet>
+      $chance is a community meme coin for entertainment â not an investment or financial advice. Crypto is volatile; only spend what you can afford to lose.
+    </p>
+  </div>
+</footer>
+
+<!-- ============ SUBMIT BOUNTY MODAL ============ -->
+<div class="modal-overlay" id="bountyModal" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="bountyTitle">
+    <button class="modal-close" type="button" data-close aria-label="Close">â</button>
+    <span class="eyebrow">your idea</span>
+    <h2 id="bountyTitle" class="modal-title">Suggest a bounty idea</h2>
+    <p class="modal-sub">Got a good deed in mind? Tell us about it â add a photo or video if you've got one.</p>
+
+    <form id="bountyForm" novalidate>
+      <label class="field">
+        <span class="flabel">Your email <em>*</em></span>
+        <input type="email" name="email" required placeholder="you@email.com" autocomplete="email" />
+      </label>
+
+      <label class="field">
+        <span class="flabel">Your bounty idea <em>*</em></span>
+        <textarea name="idea" required rows="4" placeholder="e.g. Pay for a stranger's groceries and film their reactionâ¦"></textarea>
+      </label>
+
+      <div class="field">
+        <span class="flabel">Photo / video <em class="opt">(optional Â· up to 200MB each)</em></span>
+        <label class="dropzone" id="dropzone">
+          <input type="file" id="bountyFiles" accept="image/*,video/*" multiple hidden />
+          <span class="dz-ico">ð</span>
+          <span class="dz-text">Tap to add files, or drag them here</span>
+        </label>
+        <ul class="filelist" id="filelist"></ul>
+      </div>
+
+      <div class="field cf-field">
+        <div class="cf-turnstile" data-sitekey="0x4AAAAAADhF4YtwSbV64c4W" data-theme="light" data-refresh-expired="auto"></div>
+      </div>
+
+      <button type="submit" class="btn red submit-btn" id="bountySubmit">Send my idea <span class="ico">ð</span></button>
+      <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast">copied! ð</div>
+
+<script>
+/* ============================================================
+   CONFIG â fill these in before going live.
+   Replace placeholder values and the links update everywhere.
+   ============================================================ */
+const CONFIG = {
+  contract: "coming soon on pump.fun",          // pump.fun mint address
+  submitEndpoint: "https://chance-bounty.f4mqj9vdb7.workers.dev", // deployed bounty Worker URL
+  links: {
+    pump:   "https://pump.fun/coin/coming soon on pump.fun",                  // direct pump.fun coin URL
+    x:      "https://x.com/pumpchance/",       // X / Twitter
+    tiktok: "https://www.tiktok.com/@pumpchancesol",   // TikTok
+    ig:     "https://www.instagram.com/pumpchancesol", // Instagram
+    yt:     "https://www.youtube.com/@pumpchancesol"   // YouTube
+  }
+};
+
+/* --- apply config --- */
+(function(){
+  const ca = CONFIG.contract;
+  document.querySelectorAll('#caText, #caText2').forEach(el => el.textContent = ca);
+  document.querySelectorAll('[data-link]').forEach(el => {
+    const key = el.getAttribute('data-link');
+    if (CONFIG.links[key]) { el.href = CONFIG.links[key]; el.target = "_blank"; el.rel = "noopener"; }
+  });
+  const yr = document.getElementById('yr');
+  if (yr) yr.textContent = new Date().getFullYear();
+})();
+
+/* --- keep images (esp. the logo) loading on flaky mobile connections --- */
+(function(){
+  function retry(img){
+    const n = (parseInt(img.dataset.retry || '0', 10)) + 1;
+    if (n > 3) return;                       // give up after 3 attempts
+    img.dataset.retry = n;
+    const base = (img.getAttribute('src') || '').split('?')[0];
+    if (!base) return;
+    setTimeout(() => { img.src = base + '?r=' + n; }, 600 * n); // back off, cache-bust
+  }
+  document.querySelectorAll('img').forEach(img => {
+    img.addEventListener('error', () => retry(img));
+    // catch images that already failed before this listener was attached
+    if (img.complete && img.naturalWidth === 0) retry(img);
+  });
+})();
+
+/* --- copy contract --- */
+const toast = document.getElementById('toast');
+let toastT;
+function showToast(msg){
+  toast.textContent = msg;
+  toast.classList.add('show');
+  clearTimeout(toastT);
+  toastT = setTimeout(() => toast.classList.remove('show'), 1800);
+}
+function copyCA(){
+  const ca = CONFIG.contract;
+  if (ca.startsWith('SET_')) { showToast('add the contract address first âï¸'); return; }
+  navigator.clipboard.writeText(ca).then(() => showToast('contract copied! ð'))
+    .catch(() => showToast('copy failed â long-press to copy'));
+}
+['copyCa','caChip','caChip2'].forEach(id => {
+  const el = document.getElementById(id);
+  if (el) el.addEventListener('click', copyCA);
+});
+
+// Contact (mailto): still opens the mail app, but ALSO copies the address +
+// shows a toast â so the click always does something, even with no mail client.
+document.querySelectorAll('a[href^="mailto:"]').forEach(a => {
+  a.addEventListener('click', () => {
+    const email = a.getAttribute('href').replace(/^mailto:/, '').split('?')[0];
+    if (navigator.clipboard && email) {
+      navigator.clipboard.writeText(email)
+        .then(() => showToast('email copied! ' + email + ' ð'))
+        .catch(() => showToast('email: ' + email));
+    }
+  });
+});
+
+/* --- reveal on scroll --- */
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+}, { threshold:.14 });
+document.querySelectorAll('.reveal').forEach((el,i) => {
+  el.style.transitionDelay = (Math.min(i,4)*60) + 'ms';
+  io.observe(el);
+});
+
+/* ============================================================
+   SUBMIT BOUNTY IDEA
+   1) POST {email, idea, files:[{name,type,size}]} to the Worker
+   2) Worker writes submission.json to R2, returns presigned PUT urls
+   3) Browser uploads each file straight to R2 (bypasses Worker limits)
+   ============================================================ */
+const MAX_BYTES = 200 * 1024 * 1024;   // 200MB per file
+const MAX_FILES = 6;
+const modal   = document.getElementById('bountyModal');
+const bForm   = document.getElementById('bountyForm');
+const fileIn  = document.getElementById('bountyFiles');
+const fileList= document.getElementById('filelist');
+const dropzone= document.getElementById('dropzone');
+const statusEl= document.getElementById('formStatus');
+const submitBtn = document.getElementById('bountySubmit');
+let chosen = [];
+
+function openModal(){
+  modal.classList.add('open'); modal.setAttribute('aria-hidden','false');
+  document.body.style.overflow='hidden';
+  setTimeout(()=>{ const f=bForm.querySelector('input'); if(f) f.focus(); }, 60);
+}
+function closeModal(){
+  modal.classList.remove('open'); modal.setAttribute('aria-hidden','true');
+  document.body.style.overflow='';
+}
+document.querySelectorAll('[data-open="bounty"]').forEach(b =>
+  b.addEventListener('click', e => { e.preventDefault(); openModal(); }));
+modal.addEventListener('click', e => {
+  if (e.target === modal || e.target.closest('[data-close]')) closeModal();
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
+});
+
+function fmtSize(b){ return b >= 1048576 ? (b/1048576).toFixed(1)+' MB' : Math.max(1,Math.round(b/1024))+' KB'; }
+function setStatus(msg, kind){ statusEl.textContent = msg || ''; statusEl.className = 'form-status' + (kind ? ' '+kind : ''); }
+
+function renderFiles(){
+  fileList.innerHTML = '';
+  chosen.forEach((f, i) => {
+    const li = document.createElement('li');
+    li.className = 'fileitem' + (f.size > MAX_BYTES ? ' bad' : '');
+    const name = document.createElement('span'); name.className='fi-name'; name.textContent=f.name;
+    const size = document.createElement('span'); size.className='fi-size'; size.textContent = fmtSize(f.size) + (f.size>MAX_BYTES ? ' Â· too big' : '');
+    const x = document.createElement('button'); x.type='button'; x.className='fi-x'; x.setAttribute('aria-label','remove'); x.textContent='â';
+    x.addEventListener('click', () => { chosen.splice(i,1); renderFiles(); });
+    const bar = document.createElement('span'); bar.className='fi-bar'; bar.innerHTML='<i></i>';
+    li.append(name, size, x, bar);
+    fileList.appendChild(li);
+  });
+}
+const BUFFER_LIMIT = 120 * 1024 * 1024; // read files up to this size fully into memory
+async function addFiles(list){
+  for (const f of list){
+    if (chosen.length >= MAX_FILES){ setStatus(`Max ${MAX_FILES} files.`, 'err'); break; }
+    if (f.type && !/^(image|video)\//.test(f.type)){ setStatus('Only photos or videos, please.', 'err'); continue; }
+    chosen.push({ name: f.name, type: f.type, size: f.size, file: f, data: null });
+  }
+  renderFiles();
+  // Read bytes into memory NOW, while the file handle is still valid. On mobile,
+  // File handles (content:// URIs) can go stale before the upload runs â buffering
+  // here is what makes multi-file uploads work on phones.
+  for (const it of chosen){
+    if (it.data || it.size > BUFFER_LIMIT) continue;
+    try { it.data = new Blob([await it.file.arrayBuffer()], { type: it.type }); }
+    catch (_) { /* fall back to the live File at upload time */ }
+  }
+}
+fileIn.addEventListener('change', async () => { const f = fileIn.files; fileIn.value=''; await addFiles(f); });
+['dragenter','dragover'].forEach(ev => dropzone.addEventListener(ev, e => { e.preventDefault(); dropzone.classList.add('drag'); }));
+['dragleave','drop'].forEach(ev => dropzone.addEventListener(ev, e => { e.preventDefault(); dropzone.classList.remove('drag'); }));
+dropzone.addEventListener('drop', e => { if (e.dataTransfer && e.dataTransfer.files) addFiles(e.dataTransfer.files); });
+
+function putWithProgress(url, file, onProg){
+  return new Promise((resolve, reject) => {
+    const xhr = new XMLHttpRequest();
+    xhr.open('PUT', url);
+    xhr.setRequestHeader('Content-Type', file.type || 'application/octet-stream');
+    xhr.upload.onprogress = e => { if (e.lengthComputable) onProg(e.loaded / e.total); };
+    xhr.onload  = () => (xhr.status >= 200 && xhr.status < 300) ? resolve() : reject(new Error('Upload failed ('+xhr.status+')'));
+    xhr.onerror = () => reject(new Error('Network error during upload'));
+    xhr.send(file);
+  });
+}
+function errMsg(code){
+  return ({
+    invalid_email:'Please enter a valid email.',
+    empty_idea:'Tell us your idea first ð',
+    idea_too_long:'That idea is a bit too long.',
+    file_too_large:'A file is over the 200MB limit.',
+    too_many_files:'Too many files attached.',
+    bad_file_type:'Only photos or videos, please.',
+    rate_limited:'Youâve hit the limit of 2 ideas per day. Come back tomorrow ð',
+    captcha_missing:'Please complete the captcha below.',
+    captcha_failed:'Captcha check failed â please try again.',
+  })[code] || 'Submission failed. Please try again.';
+}
+
+bForm.addEventListener('submit', async e => {
+  e.preventDefault();
+  const email = bForm.email.value.trim();
+  const idea  = bForm.idea.value.trim();
+
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){ setStatus('Please enter a valid email.', 'err'); return; }
+  if (idea.length < 4){ setStatus('Tell us your idea first ð', 'err'); return; }
+  if (chosen.some(f => f.size > MAX_BYTES)){ setStatus('Remove files over 200MB first.', 'err'); return; }
+  if (!CONFIG.submitEndpoint || CONFIG.submitEndpoint.includes('REPLACE')){
+    setStatus('Submissions arenât switched on yet â check back soon! ð', 'err'); return;
+  }
+
+  const cfToken = (window.turnstile && typeof turnstile.getResponse === 'function')
+    ? (turnstile.getResponse() || '')
+    : ((bForm.querySelector('[name="cf-turnstile-response"]') || {}).value || '');
+  if (!cfToken){ setStatus('Please complete the captcha below.', 'err'); return; }
+
+  submitBtn.disabled = true;
+  setStatus('Sending your ideaâ¦');
+  try {
+    const res = await fetch(CONFIG.submitEndpoint.replace(/\/$/,'') + '/submit', {
+      method:'POST',
+      headers:{ 'Content-Type':'application/json' },
+      body: JSON.stringify({ email, idea, turnstileToken: cfToken, files: chosen.map(f => ({ name:f.name, type:f.type, size:f.size })) })
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok || !data.ok) throw new Error(errMsg(data.error));
+
+    const items = fileList.querySelectorAll('.fileitem');
+    for (let i = 0; i < chosen.length; i++){
+      const up = (data.uploads || [])[i];
+      if (!up || !up.url) continue;
+      const bar = items[i] ? items[i].querySelector('.fi-bar i') : null;
+      setStatus(`Uploading ${i+1} of ${chosen.length}â¦`);
+      const payload = chosen[i].data || chosen[i].file;   // buffered bytes preferred
+      await putWithProgress(up.url, payload, p => { if (bar) bar.style.width = (p*100).toFixed(0)+'%'; });
+      if (bar) bar.style.width = '100%';
+    }
+
+    setStatus('Thank you! Your bounty idea is in. ð', 'ok');
+    showToast('idea submitted! ð');
+    bForm.reset(); chosen = []; renderFiles();
+    setTimeout(closeModal, 1700);
+  } catch (err) {
+    setStatus(err.message || 'Something went wrong. Try again.', 'err');
+  } finally {
+    submitBtn.disabled = false;
+    if (window.turnstile) { try { turnstile.reset(); } catch (_) {} } // fresh token for next time
+  }
+});
+
+/* --- hero: cycle synonyms of "kind" --- */
+(function(){
+  const words = ["kind","generous","caring","thoughtful","charitable","giving","selfless","good"];
+  const el = document.getElementById('rotWord');
+  if (!el) return;
+  const wrap = el.parentElement;          // .rotator
+
+  // pick a random index, never the same as the current one
+  const pick = (not) => {
+    let j;
+    do { j = Math.floor(Math.random() * words.length); } while (words.length > 1 && j === not);
+    return j;
+  };
+
+  let i = pick(-1);
+  el.textContent = words[i];              // randomize immediately so "kind" isn't the default
+
+  const measure = () => { wrap.style.width = Math.ceil(el.getBoundingClientRect().width) + 'px'; };
+
+  const start = () => {
+    measure();
+    setInterval(() => {
+      el.classList.add('out');
+      setTimeout(() => {
+        i = pick(i);
+        el.textContent = words[i];
+        el.classList.remove('out');   // clear transform before measuring
+        measure();                    // animate width to the new word
+        void el.offsetWidth;          // restart the entrance animation
+        el.classList.add('in');
+        setTimeout(() => el.classList.remove('in'), 480);
+      }, 330);
+    }, 2200);
+  };
+
+  // wait for the marker font so the first measurement is accurate
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(start);
+  else window.addEventListener('load', start);
+  window.addEventListener('resize', measure);
+})();
+</script>
+
+<!-- live on-chain bounty stats -->
+<script src="./bounty-stats.js"></script>
+<script>
+(function(){
+  const paidAmt = document.getElementById('paidAmt');
+  const poolAmt = document.getElementById('poolAmt');
+  if (!paidAmt || !window.PumpchanceBounty) return;
+  const num = (n) => Math.round(Math.max(0, n)).toLocaleString('en-US');
+
+  const paidStat = document.getElementById('paidStat');
+  const subsAmt = document.getElementById('subsAmt');
+  async function refresh(){
+    const s = await PumpchanceBounty.fetchStats();
+    if (paidStat) paidStat.style.display = s.paidUsd > 0 ? '' : 'none';  // only show once > $0
+    PumpchanceBounty.animateTo(poolAmt, s.poolUsd, num);
+    if (subsAmt) PumpchanceBounty.animateTo(subsAmt, s.submissions, num);
+    if (s.paidUsd > 0) PumpchanceBounty.animateTo(paidAmt, s.paidUsd, num);
+    bountyLinks = s.links || [];
+  }
+  refresh();
+  setInterval(refresh, 20000);
+
+  // rotate the bounty ticker through each live bounty (name â its pump link)
+  let bountyLinks = [];
+  let bi = 0;
+  const ticker = document.getElementById('bountyTicker');
+  const btText = ticker ? ticker.querySelector('.bt-text') : null;
+  function fitBounty(el){                  // shrink font so long names fit in ~2 lines
+    el.style.fontSize = '';
+    const base = parseFloat(getComputedStyle(el).fontSize) || 16;
+    const targetH = base * 1.2 * 2 + 2;    // two lines at base size
+    let fs = base, guard = 0;
+    while (el.scrollHeight > targetH && fs > 12 && guard < 40){ fs -= 1; el.style.fontSize = fs + 'px'; guard++; }
+  }
+  function rotateBounty(){
+    if (!ticker || !btText) return;
+    if (!bountyLinks.length){
+      ticker.href = PumpchanceBounty.CONFIG.pumpUrl;
+      btText.textContent = 'live bounties on pump.fun â';
+      fitBounty(btText);
+      return;
+    }
+    bi = bi % bountyLinks.length;
+    const b = bountyLinks[bi++];
+    btText.classList.add('out');
+    setTimeout(() => {
+      ticker.href = b.url;
+      btText.textContent = b.title + ' â';
+      fitBounty(btText);
+      btText.classList.remove('out');
+      void btText.offsetWidth;            // restart the entrance animation
+      btText.classList.add('in');
+      setTimeout(() => btText.classList.remove('in'), 440);
+    }, 200);
+  }
+  setTimeout(rotateBounty, 1200);
+  setInterval(rotateBounty, 3200);
+})();
+</script>
+</body>
+</html>
